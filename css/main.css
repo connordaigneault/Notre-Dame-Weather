@@ -1,0 +1,253 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html, #weather, main {
+	height: 100%;
+	
+}
+
+.picture {
+	background-image: url("../img/notredamevec.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.head{
+	height: 25%;
+	margin: 0;	
+padding: 1rem;	
+border-left: 5px solid #ae9142;
+	border-right: 5px solid #ae9142;
+	border-top: 5px solid #ae9142;
+}
+
+
+
+.head h1{
+	color: #000;
+	text-align: center;
+margin: 0;
+
+}
+
+.head h2{
+	text-align: center;
+	font-size: 9rem;
+	color: #C99700;
+
+}
+
+.head h3{
+	font-size: .5rem;
+}
+
+.top,.head,.{
+	border: 5px solid #ae9142;
+}
+
+
+
+
+.top {
+	overflow: hidden;
+	height: 30%;
+	text-align: center;
+	margin-color: gold;
+	border-left: 5px solid #ae9142;
+	border-right: 5px solid #ae9142;
+	
+}
+
+.top img{
+
+}
+
+@media screen and (min-width: 40rem){
+	.top img{
+		width: 30%;
+	}
+}
+
+.top h4{
+	
+}
+
+.day1,
+.day2,
+.day3,
+.day4{
+	float: left;
+	width: 25%;
+}
+
+	
+
+
+
+
+
+
+
+
+}
+
+.bottom p{
+margin: 0;
+color: gold;
+text-align: center;
+font-size: 1rem;
+
+}
+
+.bottom h1{
+	text-align: center;
+ color: #ae9142;  
+}
+
+
+.wdata-01 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: black;
+}
+
+.wdata-02 {
+	font-size: 1rem;
+
+}
+
+.wdata-03 {
+
+	font-size: 1.5rem;
+	color: grey;
+	
+}
+
+.wdata-04{
+float: left;
+	width: 50%;
+	color: blue;
+}
+
+
+.wdata-05{
+	float: left;
+	width: 50%;
+	color: red;
+	
+}
+
+.bottom {
+	overflow: hidden;
+	height: 25%;
+	padding: 1.5rem 5%;
+	background-color: #00843D;
+	text-align: center;
+	margin: auto;
+`
+}
+
+.bottom p{
+	font-size: 1.5rem;
+	color: #ae9142;
+
+}
+
+
+
+
+
+.left{
+	
+}
+
+
+.right{
+	
+}
+
+.wdata-10{
+
+font-size: 3rem;
+text-align: center;
+color: grey;
+
+}
+
+.middle{
+	height: 20%;
+	overflow: hidden;
+	background-color: #0C2340;
+	width: 100%;
+	color: white;
+	margin: 0;
+}
+
+.day1{
+	text-align: center;
+	margin: 0;
+	float: left;
+	width: 25%;
+	background-color: #AE9142;
+	height: 100%;
+	font-size: .5rem;
+}
+
+
+.day2{
+	text-align: center;
+	margin: 0;
+	float: left;
+	width: 25%;
+	background-color: #0C2340;
+	font-size: .5rem;
+}
+
+
+.day3{
+	text-align: center;
+	margin: 0;
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-color: #AE9142;
+	font-size: .5rem; 
+}
+
+.day4{
+	text-align: center;
+	margin: 0;
+	float: left;
+	width: 25%;
+	font-size: .5rem;
+	background-color: #0C2340; 
+}
+
+
+.middle{
+	overflow: hidden;
+}
+
+
+
+}
+
+
+.wdata-12{
+	float: left;
+	width: 25%;
+}
+
+
+.wdata-13{
+	float: left;
+	width: 25%;
+}
+
+.wdata-14{
+	float: left;
+	width: 25%;
+}
+
